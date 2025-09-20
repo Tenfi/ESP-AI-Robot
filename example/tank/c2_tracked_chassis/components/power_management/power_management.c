@@ -142,9 +142,9 @@ static void vbat_monitor_task(void *arg)
         if (vbat_charging_state != last_vbat_charging_state) {
             last_vbat_charging_state = vbat_charging_state;
             if (vbat_charging_state == VBAT_CHARGING_LEVEL) {
-                ESP_LOGI(TAG, "The battery starts charging.");
+                // ESP_LOGI(TAG, "The battery starts charging.");
             } else {
-                ESP_LOGI(TAG, "The battery is not charging.");
+                // ESP_LOGI(TAG, "The battery is not charging.");
             }
         }
 
