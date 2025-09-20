@@ -1,0 +1,3 @@
+CONFIG_IDF_TARGET="esp32c2"
+# Bypass a bug. Use 26M XTAL Freq
+CONFIG_XTAL_FREQ_26=y

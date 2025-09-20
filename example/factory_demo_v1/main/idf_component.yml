@@ -1,0 +1,18 @@
+## IDF Component Manager Manifest File
+dependencies:
+  espressif2022/bmi270: "*"
+  espressif2022/tinygl: "*"
+  espressif/button:
+    version: "3.4.0"
+  espressif/esp-sr: "1.9.2"
+  espressif/thorvg: "0.*"
+  esp_mmap_assets: "1.*"
+  esp_lv_fs: "0.*"
+  esp_lv_decoder: "0.1.*"
+  lvgl/lvgl: "8.*"
+  espressif/zlib: ^1
+  espressif/esp32-camera: "2.0.4"
+  esp_sparkbot_bsp: "*"
+
+  protocol_examples_common:
+    path: ${IDF_PATH}/examples/common_components/protocol_examples_common

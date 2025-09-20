@@ -1,0 +1,27 @@
+menu "Example Configuration"
+
+    config BILIBILI_ACCOUNT_NUMBER
+        string "BILIBILI ACCOUNT NUMBER"
+        default "3493296718482287"
+        help
+            bilibili account number to get your fans count
+    
+    config BILIBILI_ACCOUNT_NAME
+        string "BILIBILI ACCOUNT NAME"
+        default "ESP_Friends"
+        help
+            bilibili account name to show on screen
+
+    config EXAMPLE_WIFI_SSID
+        string "SSID"
+        default "ssid"
+        help
+            SSID of the WiFi network to connect to
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "Password"
+        default "password"
+        help
+            Password of the WiFi network to connect to
+
+endmenu

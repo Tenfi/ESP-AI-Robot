@@ -1,0 +1,33 @@
+menu "Example Configuration"
+
+    config BAIDU_AUDIO_ACCESS_TOKEN
+        string "BAIDU AUDIO ACCESS TOKEN"
+        default "token"
+        help
+            ACCESS TOKEN for tts and stt
+
+    config BAIDU_LLM_ACCESS_TOKEN
+        string "BAIDU LLM ACCESS TOKEN"
+        default "token"
+        help
+            ACCESS TOKEN for baidu LLM
+
+    config QWEATHER_REQUEST_KEY
+        string "QWEATHER REQUEST KEY"
+        default "key"
+        help
+            Get weather information from Qweatehr server
+
+    config EXAMPLE_WIFI_SSID
+        string "SSID"
+        default "ssid"
+        help
+            SSID of the WiFi network to connect to
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "Password"
+        default "password"
+        help
+            Password of the WiFi network to connect to
+
+endmenu

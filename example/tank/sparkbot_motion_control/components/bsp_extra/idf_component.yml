@@ -1,0 +1,22 @@
+dependencies:
+
+  espressif/esp_sparkbot_bsp:
+    version: "*"
+    path: ../esp_sparkbot_bsp
+
+  esp_codec_dev:
+    public: true
+    version: "==1.1.0"
+
+  chmorgan/esp-audio-player:
+    version: "1.0.*"
+    public: true
+
+  chmorgan/esp-file-iterator:
+    version: "1.0.0"
+    public: true
+
+description: Board Support Package for ESP32-P4-Function-ev-board
+targets:
+- esp32s3
+version: 0.0.1
